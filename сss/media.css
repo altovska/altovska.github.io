@@ -4,6 +4,16 @@
 */
 
 @media (min-width: 1281px) {
+  .wrapper{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top:80px;
+  }
+  #four svg{
+    width: 400px;
+      top: 160px;
+  }
 
 
 
@@ -17,11 +27,13 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   .wrapper{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top:40px;
   }
   #four svg{
-    width: 33i0px;
+    width: 300px;
       top: 160px;
   }
 
@@ -35,8 +47,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   .wrapper{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
   }
   #four svg{
     width: 300px;
@@ -51,13 +63,18 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+  .item {
+    font-size: 1em;
+    margin: 6% auto;
+  }
   .wrapper{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:20px;
   }
   #four svg{
-    width: 300px;
+    width: 200px;
       top: 160px;
   }
 }
@@ -68,17 +85,26 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+  .item {
+    font-size: 1em;
+    margin: 6% auto;
+  }
+  .fullpage4{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
   .wrapper{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:60px;
   }
   .revo{
     padding: 10px 0;
     bottom: 25px;
   }
   #four svg{
-    width: 200px;
+    width: 150px;
     top: 140px;
   }
 }
@@ -89,6 +115,20 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .wrapper{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:60px;
+  }
+  .item {
+    font-size: 1em;
+    margin: 6% auto;
+  }
+  .fullpage4{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
   h1 a{
     top: 50px;
     right: 30px;
@@ -101,10 +141,7 @@
     left: 30px;
     top: 10px;
   }
-  .wrapper{
-    width: 300px;
-    height: 200px;
-  }
+
   .revo{
     padding: 7px 12px;
     bottom: 10px;
@@ -119,11 +156,8 @@
     bottom: 35px;
     left: 30px;
   }
-  .wrapper{
-    top:-50px;
-  }
   #four svg{
-    width: 150px;
+    width: 100px;
     top: 120px;
   }
 }
