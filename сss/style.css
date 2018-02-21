@@ -1,4 +1,5 @@
-html {  }
+html {
+overflow: hidden;}
 body{
   margin: 0;
   background-color: #fff;
@@ -290,4 +291,66 @@ a.effect-underline:hover:after {
          fill:#cfcfcf;
          font-size: 300px;
     }
+}
+
+.preloader{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width:100%;
+  height: 100%;
+  background: #fff;
+  z-index:1;
+}
+.loader1, .loader{
+  position: absolute;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+.loader-frame{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.loader1, .loader2{
+  position: absolute;
+  border: 7px solid transparent;
+  border-radius: 50%;
+}
+
+.loader1{
+  width: 75px;
+  height: 75px;
+  border-top: 7px solid #000;
+  border-bottom: 7px solid #000;
+    animation: clock 2s linear 3;
+
+}
+.loader2{
+  width: 60px;
+  height: 60px;
+  border-left: 7px solid #858585;
+  border-right: 7px solid #858585;
+  top: 7px;
+  left: 7px;
+  animation: anticlock 2s linear 3;
+}
+@keyframes clock {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+@keyframes anticlock {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(-360deg);}
+}
+@keyframes fadeout {
+  from{opacity: 1}
+  to{opacity: 0;}
 }
