@@ -85,6 +85,9 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .head{
+    font-size: 2.6em;
+  }
   .item {
     font-size: 1em;
     margin: 6% auto;
@@ -122,7 +125,7 @@
     top:60px;
   }
   .item {
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 6% auto;
   }
   .fullpage4{
@@ -159,5 +162,8 @@
   #four svg{
     width: 100px;
     top: 120px;
+  }
+  .head{
+    font-size: 2em;
   }
 }

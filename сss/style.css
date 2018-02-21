@@ -368,6 +368,7 @@ a.effect-underline:hover:after {
 .fullpage4 img{
   display: block;
   margin: auto;
+  left: 30px;
 }
 .head{
   padding-top: 60px;
@@ -382,6 +383,10 @@ a.effect-underline:hover:after {
   height: 20px;
 }
 .responsive {
+    max-width: 80%;
+    height: auto;
+}
+.responsive1 {
     max-width: 100%;
     height: auto;
 }
