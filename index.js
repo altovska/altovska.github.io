@@ -3,7 +3,7 @@
 (function(){
   var preload = document.getElementById("preloader");
   var loading = 0;
-  var id = setInterval(frame, 14);
+  var id = setInterval(frame, 64);
 
   function frame(){
     if(loading == 100){
