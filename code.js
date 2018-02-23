@@ -5,6 +5,7 @@ $(function() {
   $("#one").delay(2700).fadeTo( "slow", 1 );
   $("#seven").delay(2700).fadeTo( "slow", 1 );
   $("#four").delay(2700).fadeTo( "slow", 1 );
+  $("#five").delay(2700).fadeTo( "slow", 1 );
 });
 
 AOS.init({
