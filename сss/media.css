@@ -95,12 +95,21 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .textrev{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
   .responsive1 {
       max-width: 100%;
       height: 70vh;
   }
   .wrapper img{
-    margin-top: 70px;
+    margin-top: 20%;
 
   }
   .wrapper{
@@ -155,6 +164,7 @@
     top: 120px;
   }
   .head{
-    font-size: 2em;
+    font-size: 2.6em;
+    padding-bottom: 50px
   }
 }

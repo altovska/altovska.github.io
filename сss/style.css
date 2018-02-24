@@ -366,23 +366,18 @@ a.effect-underline:hover:after {
   font-size: 1.2em;
   margin: 25% auto;
 }
-.fullpage4 img{
+/*.fullpage4 img{
   display: block;
   margin: auto;
   left: 30px;
-}
+}*/
 .head{
   padding-top: 60px;
   font-size: 3em;
   text-align: center;
-  padding: 80px auto;
+
 }
-.head:before{
-  display: block;
-  background-color: #000;
-  width: 20px;
-  height: 20px;
-}
+
 .responsive {
     max-width: 80%;
     height: auto;
@@ -398,4 +393,39 @@ h2{
 .wrapper img{
   display: block;
   margin: 0 auto;
+}
+#lottie{
+    background-color:#fff;
+    width:90%;
+    height:90%;
+    display:block;
+    margin: 0px auto;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+.textrev{
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+button{
+
+  width: 140px;
+  height: 50px;
+  background-color: #712a41;
+  font-size: 1.1em;
+  color: #fff;
+  border: none;
+  font-family: "Oswald";
+  margin-top: 30px;
+
+}
+button:hover{
+  background-color: #60b049;
+}
+button a{
+  color: #fff;
+  text-decoration: none;
 }
