@@ -67,7 +67,9 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+  .site-wrap{
+    display: none;
+  }
   .head{
     font-size: 2.6em;
   }
@@ -97,6 +99,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .textrev{
+
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;

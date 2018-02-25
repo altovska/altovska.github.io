@@ -1,99 +1,52 @@
 <!DOCTYPE html>
-<html >
+<html lang="en" >
+
 <head>
   <meta charset="UTF-8">
-  <title>Panels</title>
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <link rel="stylesheet" href="styleportfolio.css">
+  <title>Dual Sliding Panels</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+      <link rel="stylesheet" href="styleportfolio.css">
 
 
 </head>
 
 <body>
-  <div class="site-wrap">
-  <div class="panel-wrap animate--none">
-    <div class="panel main" data-x-pos="0"  data-y-pos="0">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--right-top js-up js-right">up/right</span>
-      <span class="panel__nav panel__nav--left-top js-up js-left">up/left</span>
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <span class="panel__nav panel__nav--right-down js-down js-right">down/right</span>
-      <span class="panel__nav panel__nav--left-down js-down js-left">down/left</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <span class="panel__zoom js-zoom">View All</span>
-      <h1>Metals</h1>
-      <div class="panel__animation-list">
 
-        <span class="js-animation active" data-animation="animate--shrink">Alberto Seveso</span>
-
+  <div class="overflow">
+  <section class="panels">
+    <article class="panels__side panels__side--left">
+      <div class="panels__side panels__side--inner-left">
+        <p style="color: #fff">"Changes and progress very rarely are gifts from above. They come out of struggles from below."</p>
       </div>
-    </div>
-    <div class="panel" data-x-pos="0"  data-y-pos="1">
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <span class="panel__nav panel__nav--right-down js-down js-right">down/right</span>
-      <span class="panel__nav panel__nav--left-down js-down js-left">down/left</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Up</h1>
-    </div>
-    <div class="panel" data-x-pos="-1"  data-y-pos="1">
-      <span class="panel__nav panel__nav--right-down js-down js-right">down/right</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Up Left</h1>
-    </div>
-    <div class="panel" data-x-pos="1"  data-y-pos="1">
-      <span class="panel__nav panel__nav--left-down js-down js-left">down/left</span>
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Up Right</h1>
-    </div>
-    <div class="panel" data-x-pos="-1"  data-y-pos="0">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--right-top js-up js-right">up/right</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <span class="panel__nav panel__nav--right-down js-down js-right">down/right</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Left</h1>
-    </div>
-    <div class="panel" data-x-pos="-1"  data-y-pos="-1">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--right-top js-up js-right">up/right</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <h1>Down Left</h1>
-    </div>
-    <div class="panel" data-x-pos="1"  data-y-pos="-1">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--left-top js-up js-left">up/left</span>
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <h1>Down Right</h1>
-    </div>
-    <div class="panel" data-x-pos="1"  data-y-pos="0">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--left-top js-up js-left">up/left</span>
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <span class="panel__nav panel__nav--left-down js-down js-left">down/left</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Right</h1>
-    </div>
-    <div class="panel" data-x-pos="0"  data-y-pos="-1">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <span class="panel__nav panel__nav--left-top js-up js-left">up/left</span>
-      <span class="panel__nav panel__nav--right-top js-up js-right">up/right</span>
-      <span class="panel__nav panel__nav--left js-left">left</span>
-      <span class="panel__nav panel__nav--right js-right">right</span>
-      <span class="panel__nav panel__nav--down js-down">down</span>
-      <h1>Down</h1>
-    </div>
-    <div class="panel" data-x-pos="0"  data-y-pos="-2">
-      <span class="panel__nav panel__nav--up js-up">up</span>
-      <h1>Down 2</h1>
-    </div>
-  </div>
+      <div class="panels__side panels__side--inner">
+        <h1 class="panels__headline" style="color: #000">Artworks</h1>
+        <svg class="arrow arrow--left" width="40" height="40" viewBox="0 0 24 24"><path d="M0 0h24v24h-24z" fill="none"/><path d="M20 11h-12.17l5.59-5.59-1.42-1.41-8 8 8 8 1.41-1.41-5.58-5.59h12.17v-2z"/></svg>
+      </div>
+    </article>
+    <article class="panels__side panels__side--right">
+      <div class="panels__side panels__side--inner">
+        <h1 class="panels__headline" style="color: #fff">Photography</h1>
+        <svg class="arrow arrow--right" width="40" height="40" viewBox="0 0 24 24"><path d="M0 0h24v24h-24z" fill="none"/><path d="M12 4l-1.41 1.41 5.58 5.59h-12.17v2h12.17l-5.58 5.59 1.41 1.41 8-8z"/></svg>
+      </div>
+      <div class="panels__side panels__side--inner-right">
+        <p style="color: #000">"The biggest benefit of Apollo was the inspiration it gave to a growing generation to get into science and aerospace."</p>
+        <a href="#"><button type="button" name="button">See more</button></a>
+      </div>
+    </article>
+  </section>
 </div>
+
+
 
     <script src="js/indexportfolio.js"></script>
 
+
+
+
 </body>
+
 </html>

@@ -87,6 +87,9 @@ body{
   height: 15vh;
 
 }
+#seven a {
+  color: black;
+}
 #seven p{
   position: absolute;
   bottom: 5px;
