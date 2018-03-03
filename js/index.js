@@ -111,11 +111,11 @@ function toggleAnimation(i){
       removeClass(wrap, animation[x].getAttribute('data-animation'));
     }
   }
-  
+
 }
 
 for (var x = 0; x < zoom.length; x++){
-  zoom[x].addEventListener('click', zoomOut);   
+  zoom[x].addEventListener('click', zoomOut);
 }
 
 function zoomOut(e){

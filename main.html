@@ -17,6 +17,21 @@
 
 <body>
 
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close.png" alt=""></span>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#" class="effect-underline">About</a>
+      <a href="#" class="effect-underline">Porfolio</a>
+      <a href="#" class="effect-underline">Contact</a>
+    </div>
+
+  </div>
+
+  <!-- Use any element to open/show the overlay navigation menu -->
 
 
   <div id="content">
@@ -30,8 +45,10 @@
         </div>
       </div>
       <div id="two">
+        <div class = "openmenu" onclick="openNav()">
         <h1 align="center"><a href="#" class="effect-underline">MENU</a></h1>
         <img src="img/menu.png" alt="">
+        </div>
       </div>
     </div>
 
